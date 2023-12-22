@@ -1,0 +1,1104 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: boder box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    width: 100%;
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav_logo{
+    height: 50px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.logo{
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    width: 100px;
+}
+
+.border{
+    border: 1.7px solid transparent;
+    border-radius: 2px;
+}
+
+.border:hover{
+    border: 1.5px solid white;
+}
+
+.address_first{
+    color: #cccccc;
+    font-size: 0.8rem;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.address_second{
+    font-size: 1.1rem;
+    margin-left: 3px;
+}
+
+.deliver_icon{
+    display: flex;
+    align-items: center;
+}
+
+.nav_search{
+    width: 900px;
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.search_select{
+    background-color: #f3f3f3;
+    width: 50px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    text-align: center;
+    border: transparent 2px ;
+    cursor: pointer;
+}
+
+.search_input{
+    width: 100%;
+    font-size: 15px;
+    text-indent: 8px;
+    border : none;
+}
+
+.search_icon{
+    width: 45px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #febd68;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius:4px ;
+    font-size: 1.2rem;
+    color: black;
+    cursor: pointer;
+}
+
+span{
+    font-size: 12px;
+    
+}
+
+.Acclists{
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.nav_search:hover{
+    border: 2px solid orange;
+    border-radius: 6px;
+}
+
+.nav_cart{
+    display: flex;
+    cursor: pointer;
+}
+
+.cart_icon{
+    font-size: 1.7rem
+}
+
+.cart_name{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-left: 2px;
+}
+
+.panel{
+    background-color: #232f3e;
+    height: 40px;
+    font-size: 14px;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.panel_opt{
+    width: 100%;
+}
+
+
+.panel_optionall{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding-left: 4px;
+    padding-right: 4px;
+    margin: 5px 0px 6px 0px;
+}
+
+.panel_opt .panel_optionall li{
+    padding: 8px 9px;
+}
+
+.panel_all{
+    font-weight: 700;
+    width: 70px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+}
+
+.menu_logo {
+    width: 20px;
+    height: 14px;
+    align-items: center;
+    font-size: 1rem;
+    display: flex;
+}
+
+.all_font{
+    font-size: 14px;
+}
+
+.shopsandelec{
+    width: auto;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    
+}
+
+.font_shopsanddeals{
+    font-size: 14px;
+    font-weight: 700;
+
+
+}
+
+.pagecontent{
+    width: 1520px;
+    height: 4200px;
+    background-color: white;
+    display: flex;
+}
+
+.hero_section{
+    background-image: url(hero_image.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    padding:20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.cardinstance{
+    height: 40px;
+    width: 95%;
+    background-color: #f5f6f6;
+    color: #0F1111;
+    justify-content: center;
+}
+
+.amazondescription{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+
+}
+
+.cardsection_1{
+    font-size: 14px;
+}
+
+.amazonin_link {
+    margin-left: 5px;
+    font-size: 14px;
+    color: #007185;
+    text-decoration: none;
+}
+
+.amazonin_link:hover{
+    color: rgb(183, 90, 53);
+    text-decoration: underline;
+}
+
+
+.shopsection{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: #e2e7e6;
+    justify-content: space-evenly;
+    margin-right: 20px;
+    flex-wrap: wrap;
+}
+.box{
+    width: 335px;
+    height: 420px;
+    background-color: white;
+}
+
+.box1-img{
+    background-image: url(computer_accessories.jpg);
+    width: 300px;
+    height: 300px;
+    background-size:cover;
+    margin-left: 18px;
+    margin-right: 25px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+h2{
+    color: #0f1111;
+    font-size: 20px;
+}
+
+.contentbox1{
+    padding: 10px 0px 5px;
+}
+
+.font_computer{
+    text-align: left;
+    margin-left: 18px;
+    position: relative;
+    top: 15px;
+}
+
+.box1section{
+    display: flex;
+    flex-direction: column;
+}
+
+#font_shopnow{
+    margin-left: 17px;
+    margin-top: 20px;
+    font-size: 13px;
+    font-weight: 550;
+    cursor: pointer;
+    color: #007185;
+}
+
+#font_shopnow:hover{
+    color: rgb(253, 108, 35);
+}
+
+.box2-img{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    margin-left: 17px;
+    padding-bottom: 3px;
+    height: 300px;
+    width: 300px;
+}
+
+.box6-img{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    margin-left: 17px;
+    padding-bottom: 3px;
+    height: 300px;
+    width: 300px;
+}
+
+.box7-img{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    margin-left: 17px;
+    padding-bottom: 3px;
+    height: 300px;
+    width: 300px;
+}
+
+.upperphotos{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+.lowerphotos{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+
+.box6f1{
+    background-image: url(fashiontrends2.jpg);
+    background-size: cover;
+    width: 148px;
+    height: 116px;
+}
+
+.box6f2{
+    background-image: url(fashiontrends1.jpg);
+    background-size: cover;
+    width: 148px;
+    height: 116px;
+    margin-left: 15px;
+}
+
+
+.box6f3{
+    background-image: url(fashiontrends3.jpg);
+    background-size: cover;
+    width: 148px;
+    height: 116px;
+    margin-right: 15px;
+
+}
+
+
+.box6f4{
+    background-image: url(refreshyourspace1.jpg);
+    background-size: cover;
+    width: 148px;
+    height: 116px;
+
+}
+
+.box7f1{
+    background-image: url(refreshyourspace2.jpg);
+    background-size: cover;
+    width: 148px;
+    height: 116px;
+}
+
+.box7f2{
+    background-image: url(refreshyourspace3.jpg);
+    background-size: cover;
+    width: 148px;
+    height: 116px;
+    margin-left: 15px;
+}
+
+
+.box7f3{
+    background-image: url(refreshyourspace4.jpg);
+    background-size: cover;
+    width: 148px;
+    height: 116px;
+    margin-right: 15px;
+
+}
+
+
+.box7f4{
+    background-image: url(refreshyourspace1.jpg);
+    background-size: cover;
+    width: 148px;
+    height: 116px;
+
+}
+
+.f1{
+    background-image: url(fation1.jpg);
+    background-size: cover;
+    width: 148px;
+    height: 116px;
+}
+
+
+.f2{
+    background-image: url(fation2.jpg);
+    background-size: cover;
+    width: 148px;
+    height: 116px;
+    margin-left: 15px;
+}
+
+
+.f3{
+    background-image: url(fation3.jpg);
+    background-size: cover;
+    width: 148px;
+    height: 116px;
+    margin-right: 15px;
+
+}
+
+
+.f4{
+    background-image: url(fation4.jpg);
+    background-size: cover;
+    width: 148px;
+    height: 116px;
+
+}
+
+.upperphotosdesc{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 25px;
+    cursor: pointer;
+}
+
+.box6upperphotosdesc{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 25px;
+    cursor: pointer;
+}
+
+.box7upperphotosdesc{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 25px;
+    cursor: pointer;
+}
+.f1desc{
+    height: 36px;
+    width: 90px;
+    margin-right: 135px;
+    position: relative;
+    right: 5px;
+}
+
+.f2desc{
+    height: 36px;
+    width: 85px;
+    position: relative;
+    right:75px;
+}
+
+.f3desc{
+    height: 36px;
+    width: 102px;
+    margin-right: 115px;
+}
+
+.f4desc{
+    height: 36px;
+    width: 95px;
+    position: relative;
+    right:65px;
+}
+
+
+
+.box3-img{
+    background-image: url(dealspromo.jpg);
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    margin-left: 18px;
+    margin-right: 25px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.box5-img{
+    background-image: url(shop\ best\ selling.jpg);
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    margin-left: 18px;
+    margin-right: 25px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.box8-img{
+    background-image: url(idealtv.jpg);
+    height: 300px;
+    width: 300px;
+    margin-left: 18px;
+    margin-right: 25px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.box4section{
+    width: 335px;
+    height: 150px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+}
+
+.signinbox{
+    width: 270px;
+    height: 29px;
+    background-color: #FFD814;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    margin-top: 15px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.millionphoto{
+    background-image: url(45million.jpg);
+    width: 300px;
+    height: 250px;
+    margin-top: 20px;
+    margin-left: 17px;
+    cursor: pointer;
+}
+
+.signinbox:hover{
+    cursor: pointer;
+    background-color:#f7d00c ;
+}
+
+.frequentlyph{
+    height: 282px;
+    width: 100%;
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.frequentlyph span{
+    width: 100%;
+    height: 100%;
+    margin: 30px;
+    position: relative;
+    top: 20px;
+    font-weight: bolder;
+}
+
+.bannerphotos{
+   display: flex;
+   padding: 25px;
+   justify-content: space-evenly;
+   cursor: pointer;
+}
+
+
+.bannerphotos1{
+    background-image: url(fph1.jpg);
+    width: 158px;
+    height: 200px;
+}
+
+.bannerphotos2{
+    background-image: url(fph2.jpg);
+    width: 192px;
+    height: 200px;
+}
+
+.bannerphotos3{
+    background-image: url(fph3.jpg);
+    width: 197px;
+    height: 200px;
+}
+
+.bannerphotos4{
+    background-image: url(fph4.jpg);
+    width: 181px;
+    height: 200px;
+}
+
+.bannerphotos5{
+    background-image: url(fph5.jpg);
+    width: 244px;
+    height: 200px;
+}
+
+.bannerphotos6{
+    background-image: url(fph6.jpg);
+    width: 198px;
+    height: 200px;
+}
+
+.bannerphotos7{
+    background-image: url(fph7.jpg);
+    width: 200px;
+    height: 200px;
+}
+
+.Banner2{
+    height: 282px;
+    width: 100%;
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.Banner2 span{
+    width: 100%;
+    height: 100%;
+    margin: 30px;
+    position: relative;
+    top: 20px;
+    font-weight: bolder;
+}
+
+.Banner2 a{
+    font-size: 14px;
+    margin: 30px;
+    position: relative;
+    left: 250px;
+    bottom: 1px;
+    font-weight: bolder;
+    color: #007185;
+    text-decoration: none;
+}
+
+.Banner2 a:hover{
+    text-decoration: underline;
+    color: rgb(253, 108, 35)
+}
+
+.banner2photos{
+   display: flex;
+   padding: 25px;
+   margin: 10px;
+   padding: 10px;
+   cursor: pointer;
+}
+
+
+.banner2photos1{
+    background-image: url(hd1.jpg);
+    width: 234px;
+    height: 200px;
+}
+
+.banner2photos2{
+    background-image: url(hd2.jpg);
+    width: 270px;
+    height: 200px;
+    margin-right: 10px;
+}
+
+.banner2photos3{
+    background-image: url(hd3.jpg);
+    width: 200px;
+    height: 200px;
+}
+
+.banner2photos4{
+    background-image: url(hd4.jpg);
+    width: 242px;
+    height: 200px;
+}
+
+.banner2photos5{
+    background-image: url(hd5.jpg);
+    width: 255px;
+    height: 200px;
+}
+
+.banner2photos6{
+    background-image: url(hd6.jpg);
+    width: 198px;
+    height: 200px;
+}
+
+.bannerbox1{
+    background-image: url(newarrivals.jpg);
+    width: 300px;
+    height: 305px;
+    background-size:cover;
+    margin-left: 18px;
+    margin-right: 25px;
+    margin-top: 25px;
+    cursor: pointer;
+    margin-right:50% ;
+
+}
+
+.bannerbox2{
+    background-image: url(discover.jpg);
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    margin-left: 18px;
+    margin-right: 25px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.bannerbox3{
+    background-image: url(fitness.jpg);
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    margin-left: 18px;
+    margin-right: 25px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.bannerbox4{
+    background-image: url(shop_laptops.jpg);
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    margin-left: 18px;
+    margin-right: 25px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.Banner3{
+    height: 282px;
+    width: 100%;
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.Banner3 span{
+    width: 100%;
+    height: 100%;
+    margin: 30px;
+    position: relative;
+    top: 20px;
+    font-weight: bolder;
+}
+
+.banner3photos{
+   display: flex;
+   justify-content: space-evenly;
+   padding: 25px;
+   margin: 10px;
+   padding: 10px;
+   cursor: pointer;
+}
+
+
+.banner3photos1{
+    background-image: url(fr1.jpg);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+}
+
+.banner3photos2{
+    background-image: url(fr2.jpg);
+    background-size: cover;
+    width: 195px;
+    height: 200px;
+    margin-right: 10px;
+}
+
+.banner3photos3{
+    background-image: url(fr3.jpg);
+    background-size: cover;
+    width: 120px;
+    height: 200px;
+}
+
+.banner3photos4{
+    background-image: url(fr4.jpg);
+    background-size: cover;
+    align-self: center;
+    width: 270px;
+    height: 98px;
+}
+
+.banner3photos5{
+    background-image: url(fr5.jpg);
+    background-size: cover;
+    width: 207px;
+    height: 200px;
+}
+
+.banner3photos6{
+    background-image: url(fr6.jpg);
+    background-size: cover;
+    width: 206px;
+    height: 200px;
+}
+
+.banner3photos7{
+    background-image: url(fr7.jpg);
+    background-size: cover;
+    width: 150px;
+    height: 200px;
+}
+
+.banner2box1{
+    background-image: url(shopact.jpg);
+    width: 300px;
+    height: 280px;
+    background-size:cover;
+    margin-left: 18px;
+    margin-right: 25px;
+    margin-top: 25px;
+    cursor: pointer;
+    margin-right:50% ;
+
+}
+
+.banner2box2{
+    background-image: url(striplight.jpg);
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    margin-left: 18px;
+    margin-right: 25px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.banner2box3{
+    background-image: url(kindle.jpg);
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    margin-left: 18px;
+    margin-right: 25px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.banner2box4{
+    background-image: url(deals.jpg);
+    background-size: cover;
+    height: 280px;
+    width: 300px;
+    margin-left: 18px;
+    margin-right: 25px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.Banner4{
+    height: 282px;
+    width: 100%;
+    background-color: white;
+    margin-top: 15px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.Banner4 span{
+    width: 100%;
+    height: 100%;
+    margin: 30px;
+    position: relative;
+    top: 20px;
+    font-weight: bolder;
+}
+
+.banner4photos{
+   display: flex;
+   justify-content: space-evenly;
+   padding: 25px;
+   margin: 10px;
+   padding: 10px;
+   cursor: pointer;
+}
+
+
+.banner4photos1{
+    background-image: url(int1.jpg);
+    background-size: cover;
+    width: 129px;
+    height: 200px;
+}
+
+.banner4photos2{
+    background-image: url(int2.jpg);
+    background-size: cover;
+    align-self: center;
+    width: 270px;
+    height: 98px;
+    margin-right: 10px;
+}
+
+.banner4photos3{
+    background-image: url(int3.jpg);
+    background-size: cover;
+    width: 129px;
+    height: 200px;
+}
+
+.banner4photos4{
+    background-image: url(int4.jpg);
+    background-size: cover;
+    align-self: center;
+    width: 129px;
+    height: 200px;
+}
+
+.banner4photos5{
+    background-image: url(int5.jpg);
+    background-size: cover;
+    width: 170px;
+    height: 200px;
+}
+
+.banner4photos6{
+    background-image: url(int6.jpg);
+    background-size: cover;
+    width: 123px;
+    height: 200px;
+}
+
+.banner4photos7{
+    background-image: url(int7.jpg);
+    background-size: cover;
+    width: 176px;
+    height: 200px;
+}
+
+.banner4photos8{
+    background-image: url(int8.jpg);
+    background-size: cover;
+    width: 100px;
+    height: 200px;
+}
+.footeruppersec{
+    background-color: #37475A;
+    width: 100%;
+    height: 49px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(187, 187, 187);
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.footeruppersec:hover{
+    cursor: pointer;
+    background-color: #4d627b;
+}
+
+.footercontent{
+    width: 100%;
+    height: 100%;
+    background-color: #232f3e;
+    display: flex;
+    justify-content: center;
+}
+
+.footerpanel1{
+    color: white;
+    width: 139px;
+    height: 319px;
+    margin-top: 40px;
+    text-decoration: none;
+    padding-bottom: 15px;
+}
+
+.footerpanel1 ul {
+    margin-top: 7px;
+}
+
+.footerpanel2 ul {
+    margin-top: 7px;
+}
+
+.footerpanel3 ul {
+    margin-top: 7px;
+}
+
+.footerpanel4 ul {
+    margin-top: 7px;
+}
+
+.footerpanel1 ul li{
+    list-style: none;
+    padding: 10px 0px 10px 0px;
+}
+
+.footerspace{
+    width: 100px;
+    height: 319px;
+    margin-top: 25px;
+}
+
+.footerpanel2{
+    color: white;
+    width: 185px;
+    height: 319px;
+   
+    margin-top: 40px;
+    text-decoration: none;
+}
+
+.footerpanel2 ul li{
+    list-style: none;
+    padding: 10px 0px 10px 0px;
+}
+
+.footerpanel3{
+    color: white;
+    width: 233px;
+    height: 319px;
+    
+    margin-top: 40px;
+    text-decoration: none;
+}
+
+.footerpanel3 ul li{
+    list-style: none;
+    padding: 10px 0px 10px 0px;
+}
+
+.footerpanel4{
+    color: white;
+    width: 137px;
+    height: 319px;
+   
+    margin-top: 40px;
+    text-decoration: none;
+}
+
+.footerpanel4 ul li{
+    list-style: none;
+    padding: 10px 0px 10px 0px;
+}
+
+.footerpanel2 ul li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.footerpanel3 ul li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.footerpanel4 ul li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.footerpanel1 ul li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+
+
